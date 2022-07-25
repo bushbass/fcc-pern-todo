@@ -1,9 +1,18 @@
-import './App.css';
+import './App.css'
+
+//components
+import InputTodo from './components/InputTodo'
+import ListTodos from './components/ListTodo'
 
 function App() {
-  return <div className="App">
-    <h1>hello</h1>
-  </div>;
+  return (
+    <>
+      <div className='container'>
+        <InputTodo />
+        <ListTodos />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
